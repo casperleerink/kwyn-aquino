@@ -48,6 +48,7 @@ const Showcase: React.FC<Props> = ({ className = "" }) => {
             width={2844}
             height={896}
             className="rounded"
+            alt="Polk"
             priority
           />
         ) : md ? (
@@ -56,6 +57,7 @@ const Showcase: React.FC<Props> = ({ className = "" }) => {
             width={2031}
             height={880}
             className="rounded"
+            alt="Polk"
             priority
           />
         ) : (
@@ -64,6 +66,7 @@ const Showcase: React.FC<Props> = ({ className = "" }) => {
             width={750}
             height={768}
             className="rounded"
+            alt="Polk"
             priority
           />
         )}
@@ -76,15 +79,16 @@ const Showcase: React.FC<Props> = ({ className = "" }) => {
         className="rounded"
       >
         {lg ? (
-          <Image src={CameraDesktop} className="rounded" />
+          <Image src={CameraDesktop} className="rounded" alt="Camera" />
         ) : md ? (
-          <Image src={CameraTablet} className="rounded" />
+          <Image src={CameraTablet} className="rounded" alt="Camera" />
         ) : (
           <Image
             src={CameraMobile}
             width={750}
             height={741}
             className="rounded"
+            alt="Camera"
           />
         )}
       </motion.div>
@@ -96,11 +100,23 @@ const Showcase: React.FC<Props> = ({ className = "" }) => {
         className="rounded"
       >
         {lg ? (
-          <Image src={EternalsDesktop} className="rounded" />
+          <Image
+            src={EternalsDesktop}
+            className="rounded"
+            alt="Eternals Screen Capture"
+          />
         ) : md ? (
-          <Image src={EternalsTablet} className="rounded" />
+          <Image
+            src={EternalsTablet}
+            className="rounded"
+            alt="Eternals Screen Capture"
+          />
         ) : (
-          <Image src={EternalsMobile} className="rounded" />
+          <Image
+            src={EternalsMobile}
+            className="rounded"
+            alt="Eternals Screen Capture"
+          />
         )}
       </motion.div>
     </div>
