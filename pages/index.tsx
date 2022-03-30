@@ -91,11 +91,11 @@ const Home: NextPage = () => {
             whileInView="show"
             className="font-light text-xl md:text-2xl"
           >
-            I write brief and brisk content for the boxes of web interfaces. At
-            Best Buy Canada, I help users journey through dense product
-            categories with ease. Before switching to UX writing, I created
-            user-friendly online content as an editor at Lomography and
-            international editions of Town&Country and Cosmopolitan.
+            I write content for the boxes of web interfaces. At Best Buy Canada,
+            I help users journey through dense product categories with ease.
+            Before switching to UX writing, I created user-friendly online
+            content as an editor at Lomography and international editions of
+            Town&Country and Cosmopolitan.
           </motion.p>
         </div>
         <div className="pt-10 md:pt-20">
@@ -113,7 +113,7 @@ const Home: NextPage = () => {
             whileInView="show"
             className="font-light text-xl md:text-2xl"
           >
-            <h6>Vancouver BC</h6>
+            <h6>Vancouver, BC</h6>
             <h6>Canada</h6>
           </motion.div>
         </div>
@@ -139,6 +139,7 @@ const Home: NextPage = () => {
               kwynaquino@gmail.com
             </a>
             <p>Full UX portfolio upon request</p>
+            <p>Let&apos;s talk UX!</p>
           </motion.div>
         </div>
       </main>
