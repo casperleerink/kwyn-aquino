@@ -63,7 +63,7 @@ const Home: NextPage = () => {
             variants={appear}
             initial="hide"
             whileInView="show"
-            className="font-light text-xl md:text-2xl bg-gradient-to-b from-indigo-900 to-neutral-900 text-transparent bg-clip-text"
+            className="font-light text-xl md:text-2xl"
           >
             <li>Touchpoint copy</li>
             <li>Facet labels</li>
@@ -89,7 +89,7 @@ const Home: NextPage = () => {
             variants={appear}
             initial="hide"
             whileInView="show"
-            className="font-light text-xl md:text-2xl bg-gradient-to-b from-indigo-900 to-neutral-900 text-transparent bg-clip-text"
+            className="font-light text-xl md:text-2xl"
           >
             I write brief and brisk content for the boxes of web interfaces. At
             Best Buy Canada, I help users journey through dense product
