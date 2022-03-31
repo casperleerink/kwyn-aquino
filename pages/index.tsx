@@ -14,6 +14,20 @@ const Home: NextPage = () => {
           name="description"
           content="Hello. I am Kwyn Aquino, a UX writer at Best Buy Canada."
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Kwyn Aquino - Writer & Editor" />
+        <meta
+          property="og:description"
+          content="Hello. I am Kwyn Aquino, a UX writer at Best Buy Canada."
+        />
+        <meta property="og:site_name" content="Kwyn Aquino" />
+        <meta property="og:locale" content="en_CA" />
+        <meta name="twitter:card" content={"summary"} />
+        <meta name="twitter:title" content="Kwyn Aquino - Writer & Editor" />
+        <meta
+          name="twitter:description"
+          content="Hello. I am Kwyn Aquino, a UX writer at Best Buy Canada."
+        />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
