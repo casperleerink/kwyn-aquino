@@ -9,7 +9,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Kwyn Aquino</title>
+        <title>Kwyn Aquino - Writer & Editor</title>
         <meta
           name="description"
           content="Hello. I am Kwyn Aquino, a UX writer at Best Buy Canada."
